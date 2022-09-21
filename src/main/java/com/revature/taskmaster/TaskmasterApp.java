@@ -20,6 +20,7 @@ public class TaskmasterApp {
     public static void main(String[] args) throws LifecycleException {
 
         logger.info("Starting Taskmaster application");
+        // This is going to be my update test
 
         try (AnnotationConfigApplicationContext beanContainer = new AnnotationConfigApplicationContext(AppConfig.class)) {
 
